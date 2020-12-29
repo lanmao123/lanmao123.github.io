@@ -4,15 +4,41 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>Hadoop笔记 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="一、虚拟机准备1、克隆虚拟机![image-20200926164721838](file:&#x2F;&#x2F;&#x2F;Users&#x2F;lankangning&#x2F;Library&#x2F;Application Support&#x2F;typora-user-images&#x2F;image-20200926164721838.png?lastModify&#x3D;1609225369) 自定义安装，然后选择CD&#x2F;DVD为centos镜像，安装好一个后，克隆">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hadoop笔记">
+<meta property="og:url" content="http://example.com/2020/12/29/Hadoop%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="一、虚拟机准备1、克隆虚拟机![image-20200926164721838](file:&#x2F;&#x2F;&#x2F;Users&#x2F;lankangning&#x2F;Library&#x2F;Application Support&#x2F;typora-user-images&#x2F;image-20200926164721838.png?lastModify&#x3D;1609225369) 自定义安装，然后选择CD&#x2F;DVD为centos镜像，安装好一个后，克隆">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="file:///Users/lankangning/Desktop/工作/image-20201015100849304.png?lastModify=1609225369">
+<meta property="og:image" content="file:///Users/lankangning/Desktop/工作/image-20201015102811297.png?lastModify=1609225369">
+<meta property="og:image" content="file:///Users/lankangning/Desktop/工作/image-20201015103435351.png?lastModify=1609225369">
+<meta property="og:image" content="file:///Users/lankangning/Desktop/工作/image-20201015103536078.png?lastModify=1609225369">
+<meta property="og:image" content="file:///Users/lankangning/Desktop/工作/image-20201015103819293.png?lastModify=1609225369">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190808202038101.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tyaXNtaWxlX19xaA==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="file:///Users/lankangning/Desktop/工作/image-20201019150624206.png?lastModify=1609225369">
+<meta property="og:image" content="file:///Users/lankangning/Desktop/工作/20170904183834049.png?lastModify=1609225369">
+<meta property="og:image" content="file:///Users/lankangning/Desktop/工作/image-20201019150650566.png?lastModify=1609225369">
+<meta property="og:image" content="file:///Users/lankangning/Desktop/工作/20170904184135696.png?lastModify=1609225369">
+<meta property="og:image" content="file:///Users/lankangning/Desktop/工作/image-20201021100427894.png?lastModify=1609225369">
+<meta property="og:image" content="file:///Users/lankangning/Desktop/工作/image-20201021104659170.png?lastModify=1609225369">
+<meta property="og:image" content="http://example.com/Users/lankangning/Desktop/%E5%B7%A5%E4%BD%9C/image-20201021200158943.png">
+<meta property="og:image" content="http://example.com/Users/lankangning/Desktop/%E5%B7%A5%E4%BD%9C/image-20201024143514209.png">
+<meta property="og:image" content="http://example.com/Users/lankangning/Desktop/%E5%B7%A5%E4%BD%9C/image-20201027104043022.png">
+<meta property="og:image" content="http://example.com/Users/lankangning/Desktop/%E5%B7%A5%E4%BD%9C/image-20201028103409902.png">
+<meta property="og:image" content="file:///Users/lankangning/Downloads/%E8%AE%B2%E4%B9%89/md/assets/1561705895292.png?lastModify=1603853872">
+<meta property="og:image" content="http://example.com/Users/lankangning/Downloads/%E8%AE%B2%E4%B9%89/md/assets/1561705918286.png">
+<meta property="og:image" content="http://example.com/Users/lankangning/Downloads/%E8%AE%B2%E4%B9%89/md/assets/1561705940248.png">
+<meta property="og:image" content="http://example.com/Users/lankangning/Downloads/%E8%AE%B2%E4%B9%89/md/assets/1561705959607.png">
+<meta property="article:published_time" content="2020-12-29T07:02:17.000Z">
+<meta property="article:modified_time" content="2020-12-29T07:05:16.861Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="hadoop">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="file:///Users/lankangning/Desktop/工作/image-20201015100849304.png?lastModify=1609225369">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -69,9 +95,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Hadoop笔记" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-Hadoop笔记" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2020/12/29/Hadoop%E7%AC%94%E8%AE%B0/" class="article-date">
   <time class="dt-published" datetime="2020-12-29T07:02:17.000Z" itemprop="datePublished">2020-12-29</time>
@@ -84,8 +108,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/12/29/Hadoop%E7%AC%94%E8%AE%B0/">Hadoop笔记</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      Hadoop笔记
     </h1>
   
 
@@ -968,58 +992,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/12/29/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2020-12-29T06:11:24.476Z" itemprop="datePublished">2020-12-29</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/12/29/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2020/12/29/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/12/29/hello-world/" data-id="ckj9nbv3v00008kc9h9xh29ce" data-title="Hello World" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
 
 
 </section>
